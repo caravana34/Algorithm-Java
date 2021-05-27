@@ -18,8 +18,11 @@ public class condicionaldoble1 {
 			System.out.println("el descuento es = " + desc);
 			System.out.println("el valor total es = " + total);
 			
-		}else {System.out.println("el valor total es = " + valorart);
+		}else {
+			System.out.println("el valor total es = " + valorart);
+			System.out.println("no obtuvo descuento" );
 
 		}
 	}
 }
+
