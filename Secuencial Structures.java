@@ -6,10 +6,13 @@
 package algoritmos_java;
 public class secuencial1{
   public static void main(String[] args){
-    int pisosi = 100;
-    double pisosdemolidos = pisosi*0.45;
-    double pisosddemo = pisosi - pisosdemolidos;
-
+    int pisosi;
+    double pisosdemolidos, pisosddemo;
+   
+    pisosi = 100;
+    pisosdemolidos = pisosi*0.45;
+    pisosddemo = pisosi - pisosdemolidos;
+    
     System.out.println("Pisos Iniciales =" + pisosi);
     System.out.println("Pisos demolidos =" + pisosdemolidos);
     System.out.println("Pisos después de demolidos =" + pisosddemo);
